@@ -128,8 +128,6 @@ Si la lista es [50, 5], el par (50,5) es de contiguos divisibles y por lo tanto 
 quedar como [50, 10, 5]. 
 Notar que la nueva lista contiene el par de contiguos consecutivos (10,5), sin embargo, este par 
 no se separa por no ser parte de la lista original.
-operaciones totales = 1 + n + n + n + n + n + n + n = 7n + 1 = O(n)
-La complejidad algoritmica es O(n) orden lineal
 */
 public class NodoInt {
   int elemento;
